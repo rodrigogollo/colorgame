@@ -1,0 +1,75 @@
+*{
+   margin:0;
+   padding:0;
+
+}
+body{
+    background-color:rgb(46, 46, 46);
+}
+.title{
+    height:180px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgb(30, 136, 229);
+    color:white;
+}
+.rgbValue{
+    font-size:4em;
+}
+.options{
+    width:100%;
+    background-color:white !important;
+    margin-bottom:20px;
+}
+.option:hover{
+    cursor:pointer;
+}
+ul{
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    user-select: none;
+}
+li{
+    padding: 5px 5px;
+    user-select: none;
+}
+#easy{
+    color:white;
+    background-color: rgb(30, 136, 229);
+}
+.mudaDisplay{
+    display:none;
+}
+
+.start{
+    color: black;
+}
+.options, ul, li{
+    font-family: 'Roboto Mono', monospace;
+    display:inline-block;
+    color:rgb(30, 136, 229);
+    font-weight:bold;
+    font-size:1.5rem;
+}
+.game{
+    margin: auto;
+    width:1280px;
+    user-select: none;
+}
+.easy{
+    width:50%;
+    margin: 0 auto;
+}
+.hard{
+    width:50%;
+    margin: 0 auto;
+}
+.option{
+    width:200px;
+    height:180px;
+    background-color:rgb(30, 136, 229);
+    border-radius: 15px;
+    margin: 5px 5px;
+    display:inline-block;
+}
